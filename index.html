@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MAIM</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Courgette|Oswald:200,400"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/homepage.css" />
+  </head>
+
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <h2><a class="navbar-brand" href="#">M I A M
+
+      </a></h2>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarText"
+        aria-controls="navbarText"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#cuisine"
+              >Accueil <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">Equipe</a>
+          </li>
+         
+        </ul>
+      </div>
+
+    </nav>
+    <div id="navbar">
+      <a href="#home">Accueil</a>
+      <a href="#news">Equipe</a>
+     
+    </div>
+    <!-- /nav -->
+    <header>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            
+            <h1>M I A M
+
+            </h1>
+            <h2>L'application qui vous donne votre menu avec ce que vous avez</h2>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container-fluid content"id="cuisine">
+      <h2>Je fais la cuisine</h2>
+      
+    </div><section id="pricing">
+      <div class="card-deck">
+        <div class="card">
+          <img class="card-img-top" src="img/94988_w1024h768c1cx351cy530.webp" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Entrée</h5>
+            <p class="card-text">Petits palmiers feuilletés apéro bien gonflés</p>
+            <p><ul>
+           
+              <li>6 personnes</li>
+              <li>1h05</li>
+              </ul>
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="img/43127_w600.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Plat</h5>
+            <p class="card-text">Pâtes au thon</p>
+            <p><ul>
+           
+              <li>2 personnes</li>
+              <li>20 min</li>
+              </ul>
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="img/4368_w630h416c1cx996cy1500.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Dessert</h5>
+            <p class="card-text">Oeuf cocotte en nid de pain</p>
+            <p><ul>
+           
+              <li>4 personnes</li>
+              <li>15 min</li>
+              </ul>
+            </p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+  </section>
+  
+ 
+    <footer>
+      <div class="container" id="team">
+        <div class="row">
+          <div class="col-12 col-md-4" >
+            <h3>L'Equipe</h3>
+            <ul>
+              <li></li>
+              <li>Didier Pascarel</li>
+              <li>Emad</li>
+              <li>Ariane</li>
+              <li>Tesfamariam</li>
+              <li>Abdullah</li>
+            </ul>
+          </div>
+         
+          
+        </div>
+      </div>
+    </footer>
+
+    <!-- scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      // When the user scrolls down 20px from the top of the document, slide down the navbar
+      window.onscroll = function() {scrollFunction()};
+      
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          document.getElementById("navbar").style.top = "0";
+        } else {
+          document.getElementById("navbar").style.top = "-50px";
+        }
+      }
+      
+    </script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/menu.js"></script>
+  </body>
+</html>
